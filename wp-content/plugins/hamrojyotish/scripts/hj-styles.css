@@ -1,0 +1,126 @@
+form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.form-label{
+	text-align: left;
+    font-weight: bold;
+    color: #320b86;
+	margin: 0 0 10px 0;
+}
+
+.form-input-field{
+    width: 100%;
+    padding: 4px;
+	margin: 0 0 10px 0;
+}
+
+input[type=text], input[type=date], input[type=time], input[type=password], input[type="email"]{
+    border-color:#9a67ea !important;
+    border-width: 2px 2px 2px 6px !important;
+    border-radius: 4px !important;
+    color: #320b86 !important;
+}
+
+input[type=text]:focus, input[type=date]:focus, input[type=time]:focus, input[type=password], input[type="email"]{
+    border: 2px solid #9a67ea !important;
+}
+
+input[type=submit]{
+    width: 50%;
+    align-items: flex-start;
+    color: #fff;
+    background-color: #7e57c2 !important;
+    border: 2px solid #7e57c2 !important;
+    border-radius: 4px !important;
+}
+
+input[type=submit]:hover{
+    background-color: #4d2c91 !important;
+}
+
+.save-btn, .delete-btn{
+    width: max-content !important;
+    padding: 10px 25px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    border-width: 2px !important;
+    border-radius: 4px !important;
+    border-style: solid !important;
+    outline: none !important;
+}
+
+.save-btn{
+    background-color: #12AB45 !important;
+    border-color: #23AB56 !important;
+}
+
+.delete-btn{
+    background-color: #DE1041 !important;
+    border-color: #DE3163 !important;
+}
+
+.save-btn:hover, .delete-btn:hover{
+    background-color: #fff !important ;
+    color: #212121 !important;
+}
+
+.save-btn:disabled{
+    background-color: #eee !important;
+    border-color: #eee !important;
+    color: #999 !important;
+}
+
+.hj-link, .hj-link:visited{
+    color: #673ab7 !important;
+    text-decoration: underline !important;
+}
+
+.hj-link:hover{
+    color: #9a67ea !important;
+}
+
+
+/*Birth Chart SVG Styles*/
+.hj-svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle; 
+	overflow: hidden; 
+}
+
+.svg-content { 
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*Chart Details Table Styles*/
+table{
+    width: max-content !important;
+}
+
+tr, th, td{
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.card {
+    display: inline-block;
+    margin: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
